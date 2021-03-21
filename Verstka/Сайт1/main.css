@@ -1,0 +1,235 @@
+@font-face{
+	font-family: Open Sans;
+	src: url(font/OpenSans/OpenSans-Regular.ttf);
+}
+
+.pr{
+	margin-right: 30px;
+}
+
+.OurBiggestProject{
+	margin-top: 100px;
+	margin-left: 706px;
+	width: 506px;
+	height: 43px;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 53px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #404149;
+}
+
+.line{
+	width: 55px;
+	height: 6px;
+	background-color: #F7654A;
+	margin-top: 45px;
+	margin-bottom: 15px;
+}
+
+.proj_text{
+	margin-top: 20px;
+	width: 350px;
+	height: 83px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+
+	color: #999999;
+}
+
+.Ozaglavie{
+	width: 142px;
+	height: 29px;
+
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+
+	color: #404149;
+}
+
+.project_imag{
+
+}
+
+.project{
+
+}
+
+.project_mas{
+	display: flex;
+	margin-top: 60px;
+	margin-left: 405px;
+}
+
+.line{
+	height: 6px;
+	width: 55px;
+}
+
+.line-main{
+	background-color: #F7654A;
+	width: 1920px;
+	height: 181px;
+	margin-top: 150px;
+	display: flex;
+}
+
+.info_prog1{
+	width: 537px;
+	height: 15px;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 71px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+
+.info_prog{
+	margin-left: 405px;
+}
+
+.info_prog2{
+	width: 562px;
+	height: 15px;
+	margin-top: 20px;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.02em;
+	color: #FFFFFF;
+}
+
+.button_mail{
+	display: flex;
+	margin-left: 380px;
+	margin-top: 73px; 
+	background-color: white;
+}
+
+.we_doing{
+	text-align: center;
+	margin-top: 150px;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 53px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.homeMas{
+	margin-top: 30px;
+	display: flex;
+	margin-left: 375px;
+	margin-bottom: 30px;	
+}
+
+.homeMas:nth-child(1){
+	margin-top: 125px;
+	display: flex;
+	margin-left: 375px;
+}
+
+.home{
+	width: 350px;
+	height: 250px;
+	height: 250px;
+	margin-left: 30px;
+}
+
+.home p{
+	margin-left: 86px;
+	width: 172px;
+	height: 62px;
+	text-align: center;
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 31px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
+
+.home img{
+	margin-top: 59px;
+	width: 60px;
+	height: 40px;
+	margin-left: 145px;
+}
+
+.blockImg div{
+	display: flex;
+	margin: 0px;
+}
+
+.blockImg{
+	margin-top: 150px;
+}
+
+body{
+
+}
+
+ul{
+	display: flex;
+	padding-left: 0;
+	list-style: none;
+}
+
+.subline{
+	display: none;
+}
+
+a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	background-color: #ccc;
+	padding: 1em;
+	white-space: nowrap;
+}
+
+a:hover{
+	background-color: pink;
+}
+
+a:focus{
+	outline: none;
+	background-color: yellow;
+}
+
+.submenu{
+	display: none;
+	flex-direction: column;
+}
+
+li{
+	position: relative;
+}
+
+.menu > li{
+	width: 300px
+}
+
+li:hover > .submenu {
+	display: flex;
+	
+}
